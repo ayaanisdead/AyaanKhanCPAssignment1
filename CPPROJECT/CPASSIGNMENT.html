@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A comprehensive HTML-only archive of Lionel Messi.">
+    <title>Lionel Messi | The Structural Archive</title>
+    
+    <style>
+      
+        body { font-family: "Times New Roman", Times, serif; color: #111; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 40px 20px; background-color: #fff; }
+        header { border-bottom: 2px solid #111; margin-bottom: 30px; text-align: center; }
+        nav { margin-bottom: 40px; text-align: center; border: 1px solid #eee; padding: 10px; }
+        nav a { margin: 0 10px; text-decoration: none; color: #111; font-variant: small-caps; }
+        section { margin-bottom: 60px; }
+        h2 { border-bottom: 1px solid #eee; padding-bottom: 10px; text-transform: uppercase; letter-spacing: 2px; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #111; padding: 10px; text-align: left; }
+        th { background: #f0f0f0; }
+        mark { background: #e0e0e0; color: #000; padding: 0 2px; }
+        footer { margin-top: 80px; border-top: 1px solid #111; padding-top: 20px; font-size: 0.85em; text-align: center; }
+        .pitch-box { text-align: center; border: 1px solid #ccc; padding: 20px; }
+    </style>
+</head>
+<body>
+
+    
+    <header>
+        <hgroup>
+            <h1>Lionel Messi</h1>
+            <p>An exhaustive structural documentation of a <mark>Global Icon</mark></p>
+        </hgroup>
+    </header>
+
+    <nav>
+        <a href="#biography">Biography</a> | 
+        <a href="#achievements">Achievements</a> | 
+        <a href="#stats">Statistics</a> | 
+        <a href="#map">Tactical Map</a> | 
+        <a href="#registry">Registry</a>
+    </nav>
+
+    <main>
+        
+        <article id="biography">
+            <section>
+                <h2>I. Biographical Profile</h2>
+                <figure style="float: right; margin-left: 20px;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg/220px-Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg" alt="Lionel Messi">
+                    <figcaption><small>Fig 1: Portrait of Messi, <time datetime="2022">2022</time>.</small></figcaption>
+                </figure>
+                
+                <p>
+                    <dfn>Lionel Andrés Messi</dfn> (born <time datetime="1987-06-24">June 24, 1987</time>) is an Argentine legend. 
+                    Commonly abbreviated as the <abbr title="Greatest of All Time">GOAT</abbr>, his career began in 
+                    <address style="display: inline;">Rosario, Argentina</address>.
+                </p>
+                
+                <p>
+                    He is noted for his <strong>low center of gravity</strong> and <em>extraordinary vision</em>. 
+                    Unlike most, his dominant foot is his <bdo dir="ltr">Left</bdo>.
+                </p>
+
+                <blockquote>
+                    "I start early and I stay late, day after day, year after year."
+                    <footer>— <cite>Lionel Messi</cite></footer>
+                </blockquote>
+            </section>
+        </article>
+
+       
+        <section id="achievements">
+            <h2>II. Major Achievements</h2>
+            <p>The following list represents the core honors earned throughout his career:</p>
+            
+            <dl>
+                <dt><strong>The FIFA World Cup</strong></dt>
+                <dd>Won in <time>2022</time>. Messi was awarded the Golden Ball as the tournament's best player.</dd>
+                
+                <dt><strong>Ballon d'Or</strong></dt>
+                <dd>Awarded a record <mark>8 times</mark> (<time>2009</time>–<time>2023</time>).</dd>
+                
+                <dt><strong>Champions League</strong></dt>
+                <dd>Secured 4 titles with FC Barcelona.</dd>
+            </dl>
+
+            <details>
+                <summary>Click to expand full trophy list</summary>
+                <ul>
+                    <li>10x La Liga Titles</li>
+                    <li>2x Copa América</li>
+                    <li>1x Olympic Gold Medal</li>
+                    <li>6x European Golden Shoe</li>
+                </ul>
+            </details>
+        </section>
+
+        
+        <section id="stats">
+            <h2>III. Career Statistics</h2>
+            <table>
+                <caption>Club and International Performance Data</caption>
+                <colgroup>
+                    <col style="background-color: #f9f9f9;">
+                    <col span="2">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>Competition</th>
+                        <th>Appearances</th>
+                        <th>Goals</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>FC Barcelona</td>
+                        <td>778</td>
+                        <td>672</td>
+                    </tr>
+                    <tr>
+                        <td>Argentina National Team</td>
+                        <td>189</td>
+                        <td>112</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Total Professional Goals</td>
+                        <td colspan="2"><strong>840+</strong></td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <p>Career Goal Target (1000):</p>
+            <progress value="840" max="1000"></progress>
+            <br>
+            <p>Historical Efficiency Rating:</p>
+            <meter value="0.95" min="0" max="1">Excellent</meter>
+        </section>
+
+        
+        <section id="map" class="pitch-box">
+            <h2>IV. Tactical Pitch Map</h2>
+            <p>Hover over the areas to see his primary movement zones.</p>
+            
+            <img src="heatmap.webp" 
+                 alt="Football Pitch" usemap="#pitchmap">
+            
+            <map name="pitchmap">
+                <area shape="rect" coords="300,50,400,250" alt="Attacking Zone" title="Primary Attacking Zone">
+                <area shape="circle" coords="200,150,40" alt="Midfield" title="Playmaking Zone">
+            </map>
+            
+            
+        </section>
+
+      
+        <section id="registry">
+            <h2>V. Registry Form</h2>
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>Supporter Verification</legend>
+                    <label for="fname">Full Name:</label>
+                    <input type="text" id="fname" name="fname" placeholder="Enter name..." required>
+                    <br><br>
+                    
+                    <label for="era">Preferred Era:</label>
+                    <select id="era">
+                        <option value="prime">2012 Prime (91 Goals)</option>
+                        <option value="msn">2015 MSN Era</option>
+                        <option value="wc">2022 World Cup Legend</option>
+                    </select>
+                    <br><br>
+                    
+                    <label for="color">Favorite Jersey Color:</label>
+                    <input type="color" id="color" name="favcolor">
+                    <br><br>
+
+                    <button type="submit">Submit Record</button>
+                    <button type="reset">Reset</button>
+                    <br>
+                    <output name="status">System: Static Mode Active</output>
+                </fieldset>
+            </form>
+        </section>
+
+        
+        <section>
+            <h2>VI. Technical Metadata</h2>
+            <p>Name in Japanese: <ruby>梅西 <rt>Messi</rt></ruby></p>
+            <p>System Variable: <var>Goals</var> = <var>n</var> + 1</p>
+            <p>To view page source, press <kbd>Ctrl</kbd> + <kbd>U</kbd></p>
+            <p>Current Energy: C<sub>6</sub>H<sub>12</sub>O<sub>6</sub></p>
+            <p>Market Value Status: <s>Limited</s> <ins>Infinite</ins></p>
+            <p>Complex Analysis: <math><msqrt><mi>x</mi></msqrt></math></p>
+            <p>Status: <samp>Archive successfully rendered.</samp></p>
+            <p>Search Highlights: <wbr><a href="https://www.youtube.com/watch?v=8V2NX7Kpd2Y&list=PLXYIq8FEVFU6CEma39JZ9e6wW-WxSeiuU&index=1">Visit MESSI</a></p>
+        </section>
+    </main>
+
+    <aside>
+        <h4>Related Figures</h4>
+        <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Diego_Maradona">Diego Maradona</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Pep_Guardiola">Pep Guadiola</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Antonela_Roccuzzo">Antonela Roccuzzo</a></li>
+        </ul>
+    </aside>
+
+    <footer>
+        <address>
+            THIS IS MADE BY MUHAMMAD AYAAN QASIM<br>
+            Contact: <a href="mailto:archive@messi-project.org">archive@messi-project.org</a>
+        </address>
+        <p><small>&copy; 2025 Lionel Messi.  <abbr title="HyperText Markup Language"></abbr> CP ASSIGNMENT</small></p>
+    </footer>
+
+    <dialog open>
+        <p>MESSI IS THE GOAT<strong></strong> HE IS THE BEST</p>
+        <form method="dialog">
+            <button>Dismiss</button>
+        </form>
+    </dialog>
+
+</body>
+</html>
